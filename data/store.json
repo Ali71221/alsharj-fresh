@@ -1,0 +1,281 @@
+{
+  "v": 1,
+  "seed": true,
+  "settings": {
+    "name": "خضره وفواكه الشرج",
+    "tagline": "خضار وفواكه طازجة كل يوم",
+    "phone": "",
+    "hours": "",
+    "areas": "",
+    "notice": "",
+    "minOrder": 0,
+    "open": true,
+    "delivery": {
+      "mode": "free",
+      "fee": 500,
+      "freeFrom": 5000
+    }
+  },
+  "categories": [
+    {
+      "id": "c1",
+      "name": "خضار"
+    },
+    {
+      "id": "c2",
+      "name": "ورقيات وأعشاب"
+    },
+    {
+      "id": "c3",
+      "name": "فواكه"
+    },
+    {
+      "id": "c4",
+      "name": "سلال جاهزة"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "طماطم",
+      "price": 500,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🍅",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p2",
+      "name": "خيار",
+      "price": 400,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🥒",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p3",
+      "name": "جزر",
+      "price": 350,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🥕",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p4",
+      "name": "بصل",
+      "price": 300,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🧅",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p5",
+      "name": "بطاطس",
+      "price": 400,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🥔",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p6",
+      "name": "باذنجان",
+      "price": 550,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🍆",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p7",
+      "name": "فلفل رومي",
+      "price": 700,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🫑",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p8",
+      "name": "ثوم",
+      "price": 1200,
+      "unit": "كيلو",
+      "cat": "c1",
+      "img": "",
+      "emoji": "🧄",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p9",
+      "name": "جرجير",
+      "price": 150,
+      "unit": "ربطة",
+      "cat": "c2",
+      "img": "",
+      "emoji": "🌿",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p10",
+      "name": "نعناع",
+      "price": 150,
+      "unit": "ربطة",
+      "cat": "c2",
+      "img": "",
+      "emoji": "🌿",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p11",
+      "name": "كزبرة",
+      "price": 150,
+      "unit": "ربطة",
+      "cat": "c2",
+      "img": "",
+      "emoji": "🌿",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p12",
+      "name": "خس",
+      "price": 300,
+      "unit": "حبة",
+      "cat": "c2",
+      "img": "",
+      "emoji": "🥬",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p13",
+      "name": "تفاح أحمر",
+      "price": 800,
+      "unit": "كيلو",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🍎",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p14",
+      "name": "موز",
+      "price": 600,
+      "unit": "كيلو",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🍌",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p15",
+      "name": "برتقال",
+      "price": 500,
+      "unit": "كيلو",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🍊",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p16",
+      "name": "عنب أخضر",
+      "price": 1200,
+      "unit": "كيلو",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🍇",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p17",
+      "name": "بطيخ",
+      "price": 1800,
+      "unit": "حبة",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🍉",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p18",
+      "name": "فراولة",
+      "price": 1000,
+      "unit": "علبة",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🍓",
+      "desc": "",
+      "inStock": false
+    },
+    {
+      "id": "p19",
+      "name": "مانجو",
+      "price": 1400,
+      "unit": "كيلو",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🥭",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p20",
+      "name": "ليمون",
+      "price": 600,
+      "unit": "كيلو",
+      "cat": "c3",
+      "img": "",
+      "emoji": "🍋",
+      "desc": "",
+      "inStock": true
+    },
+    {
+      "id": "p21",
+      "name": "سلة السلطة",
+      "price": 2500,
+      "unit": "سلة",
+      "cat": "c4",
+      "img": "",
+      "emoji": "🥗",
+      "desc": "طماطم، خيار، خس، جرجير، ليمون",
+      "inStock": true
+    },
+    {
+      "id": "p22",
+      "name": "سلة العائلة",
+      "price": 5500,
+      "unit": "سلة",
+      "cat": "c4",
+      "img": "",
+      "emoji": "🧺",
+      "desc": "خضار وفواكه تكفي أسبوع لعائلة",
+      "inStock": true
+    }
+  ]
+}
