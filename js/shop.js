@@ -82,13 +82,13 @@
     if (Number(s.minOrder) > 0) facts.push(h('span', { class: 'fact' }, h('span', { text: 'الحد الأدنى للطلب ' + money(s.minOrder) })));
     if (s.hours) facts.push(h('span', { class: 'fact' }, icon('clock'), h('span', { text: s.hours })));
     if (s.areas) facts.push(h('span', { class: 'fact' }, icon('pin'), h('span', { text: s.areas })));
-    head.replaceChildren(
+    head.replaceChildren.apply(head, [
       h('div', { class: 'brandrow' }, h('h1', { text: s.name || DEFAULT_TITLE })),
       s.tagline ? h('p', { class: 'tag', text: s.tagline }) : null,
       h('div', { class: 'facts' }, facts),
       s.open === false ? h('div', { class: 'strip closed', text: 'المحل مغلق حالياً. تقدر تتصفح المنتجات ونستقبل طلباتك عند الفتح.' }) : null,
       s.notice ? h('div', { class: 'strip', text: s.notice }) : null
-    );
+    ].filter(Boolean));
     document.title = s.name || DEFAULT_TITLE;
     $('#foot').textContent = s.name || DEFAULT_TITLE;
   }
